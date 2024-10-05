@@ -60,8 +60,8 @@ body {
     width: 500px;
     height: 40px;
     padding: 20px;
-    background: rgba(244, 242, 242, 0.081);
-    border: 1px solid rgba(244, 242, 242, 0.27);
+    background: #161b22b1;
+    border: 1px solid rgba(43, 49, 56, 0.8862745098);
     border-radius: 15px;
     color: rgba(240, 248, 255, 0.5058823529);
     font-family: font-pop;
@@ -541,3 +541,62 @@ body {
     span {
     padding-left: 5px;
 } /*# sourceMappingURL=app.css.map */
+
+.contact_form {
+    margin-top: 80px;
+}
+
+.contact_form h3 {
+    font-size: 15px;
+    color: rgba(246, 253, 255, 0.8941176471);
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+.contact_form h2 {
+    font-size: 18px;
+    color: rgba(246, 253, 255, 0.8941176471);
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+}
+
+.contact_form .name input {
+    font-size: 15px;
+    color: rgba(246, 253, 255, 0.8941176471);
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    width: 80%;
+    background: transparent;
+    border: 1px solid rgba(43, 49, 56, 0.8862745098);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.contact_form .email {
+    margin-top: 20px;
+}
+.contact_form .email input {
+    font-size: 15px;
+    color: rgba(246, 253, 255, 0.8941176471);
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    width: 80%;
+    background: transparent;
+    border: 1px solid rgba(43, 49, 56, 0.8862745098);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.submit_button button{
+    padding: 10px 30px;
+    border: 1px solid rgba(43, 49, 56, 0.8862745098);
+    border-radius: 10px;
+    background: #161b228f;
+    font-size: 13px;
+    color: rgba(246, 253, 255, 0.8941176471);
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}

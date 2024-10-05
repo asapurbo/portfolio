@@ -51,8 +51,8 @@
         width: 310px;
         height: 40px;
         padding: 20px;
-        background: rgba(244, 242, 242, 0.081);
-        border: 1px solid rgba(244, 242, 242, 0.27);
+        background: #161b22b1;
+        border: 1px solid rgba(43, 49, 56, 0.8862745098);
         border-radius: 15px;
         color: rgba(240, 248, 255, 0.5058823529);
         font-family: font-pop;
@@ -130,8 +130,8 @@
         width: 400px;
         height: 40px;
         padding: 20px;
-        background: rgba(244, 242, 242, 0.081);
-        border: 1px solid rgba(244, 242, 242, 0.27);
+        background: #161b22b1;
+        border: 1px solid rgba(43, 49, 56, 0.8862745098);
         border-radius: 15px;
         color: rgba(240, 248, 255, 0.5058823529);
         font-family: font-pop;
