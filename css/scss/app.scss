@@ -12,7 +12,9 @@ $text_color_h3: #f6fdffe4;
     border: 1px solid white;
     cursor: pointer;
 }
-
+.login_logout_bar {
+    display: none;
+}
 .flex {
     display: flex;
 }
@@ -50,6 +52,17 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        //bar_icon
+        .bar_icon {
+            color: white;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        .bars {
+            display: none;
+        }
+
         &--logo {
             width: 50px;
             img {
@@ -272,7 +285,6 @@ body {
                     #part_two {
                         padding: 25px 25px 0 25px;
                         .content_title {
-
                             h3 {
                                 // size, color, weight, font-family
                                 @include font(15px, $text_color_h3, 400);
@@ -303,6 +315,7 @@ body {
                 .profile_title {
                     display: flex;
                     justify-content: space-between;
+                    align-items: center;
                     h2 {
                         // size, color, weight, font-family
                         @include font(18px, $text_color_h3, 700);

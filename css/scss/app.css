@@ -5,6 +5,10 @@
   cursor: pointer;
 }
 
+.login_logout_bar {
+  display: none;
+}
+
 .flex {
   display: flex;
 }
@@ -32,6 +36,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+#nav_part .nav_part_wrap .bar_icon {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+#nav_part .nav_part_wrap .bars {
+  display: none;
 }
 #nav_part .nav_part_wrap--logo {
   width: 50px;
@@ -286,6 +298,7 @@ body {
 #main_section .main__section--right__aside--inside__wrap--profile .profile_title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #main_section .main__section--right__aside--inside__wrap--profile .profile_title h2 {
   font-size: 18px;
